@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>出埃及记 第一章</title>
+    <title>圣经阅读</title>
     <style>
         html, body {
             margin: 0;
@@ -30,6 +30,7 @@
             padding: 4px 6px;
             cursor: pointer;
             font-weight: bold;
+            font-size: 10px;
         }
         .chapter-links span.current {
             background-color: #007bff;
@@ -39,29 +40,30 @@
             flex-grow: 1;
             transition: margin-right 0.3s ease;
             padding: 140px 20px 20px 20px;
+            min-width: 0;
         }
         .content-wrapper.shrunk {
             margin-right: 260px;
         }
         .kjv-panel {
             position: fixed;
-            top: 140px; /* Increased from 120px to 140px to lower the frame */
+            top: 140px;
             right: 0;
             width: 240px;
-            height: calc(100vh - 140px); /* Adjusted for new top value */
+            height: calc(100vh - 140px);
             background: #f4f4f4;
             border-left: 1px solid #ccc;
             padding: 10px;
             overflow-y: auto;
             transition: transform 0.3s ease;
-            font-size: 12px;
+            font-size: 13px; /* Set to match pinyin size */
             line-height: 1.4;
         }
         .kjv-panel.hidden {
             transform: translateX(100%);
         }
         #kjv-content {
-            padding-top: 30px; /* Added to create whitespace equivalent to ~2-3 <br> tags */
+            padding-top: 30px;
         }
         .toggle-kjv {
             position: fixed;
@@ -82,10 +84,11 @@
             margin-bottom: 16px;
         }
         .line {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-end;
-            margin-top: 30px;
+            display: flex !important;
+            flex-wrap: wrap !important;
+            align-items: flex-end !important;
+            margin-top: 30px !important;
+            min-width: 0 !important;
         }
         .verse-number {
             font-size: 14px;
@@ -133,6 +136,85 @@
             cursor: pointer;
             font-size: 14px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .book-selector {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1001;
+        }
+        .book-selector button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            width: 200px;
+        }
+        .book-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 2000;
+            display: none;
+            font-size: 16px;
+        }
+        .book-modal.show {
+            display: block;
+        }
+        .book-modal h3 {
+            margin: 0 0 10px;
+            font-size: 20px;
+        }
+        .book-modal .book-section {
+            margin-bottom: 20px;
+        }
+        .book-modal ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .book-modal .ot-books {
+            column-count: 3;
+            column-gap: 20px;
+        }
+        .book-modal .nt-books {
+            column-count: 2;
+            column-gap: 20px;
+        }
+        .book-modal li {
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .book-modal li:hover {
+            background-color: #e0f7fa;
+        }
+        .close-book-modal {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
         }
         .word-modal {
             position: fixed;
@@ -186,9 +268,47 @@
             text-align: center;
             margin: 20px;
         }
+        .loader-container {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+        }
+        .spinner {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        progress {
+            width: 80%;
+            max-width: 400px;
+            height: 20px;
+        }
     </style>
 </head>
 <body>
+    <div class="loader-container" id="loader">
+        <div class="spinner"></div>
+        <progress id="progress" value="0" max="100"></progress>
+    </div>
+    <div class="book-selector">
+        <button onclick="openBookModal()">选择书卷</button>
+    </div>
     <div class="control-bar">
         <button onclick="togglePinyin()">隐藏拼音</button>
         <button onclick="adjustFontSize(1)">+</button>
@@ -196,18 +316,14 @@
     </div>
     <button class="toggle-kjv" onclick="toggleKJV()">隐藏 KJV</button>
     <div class="content-wrapper shrunk" id="contentWrapper">
-        <div class="chapter-links" id="chapter-links">
-            <!-- Chapters will be added dynamically -->
-        </div>
-        <h1 id="chapter-title">出埃及记 第1章</h1>
+        <div class="chapter-links" id="chapter-links"></div>
+        <h1 id="chapter-title">加载中...</h1>
         <div id="verse-content" class="line"></div>
         <div id="error-message" class="error-message" style="display: none;"></div>
     </div>
     <div class="kjv-panel" id="kjvPanel">
-        <strong id="kjv-title">Exodus 1 (KJV)</strong><br>
-        <div id="kjv-content">
-            <!-- KJV verses will be loaded dynamically -->
-        </div>
+        <strong id="kjv-title">Loading...</strong><br>
+        <div id="kjv-content"></div>
     </div>
     <div class="word-modal" id="wordModal">
         <button class="close-modal" onclick="closeModal()">X</button>
@@ -216,33 +332,45 @@
         <p><strong>English:</strong> <span id="modalEnglish"></span></p>
         <p class="related-uses" id="modalRelated"><strong>Related Uses:</strong> <span id="modalRelatedText"></span></p>
     </div>
+    <div class="book-modal" id="bookModal">
+        <button class="close-book-modal" onclick="closeBookModal()">X</button>
+        <div class="book-section">
+            <h3>旧约 (Old Testament)</h3>
+            <ul id="otBooks" class="ot-books"></ul>
+        </div>
+        <div class="book-section">
+            <h3>新约 (New Testament)</h3>
+            <ul id="ntBooks" class="nt-books"></ul>
+        </div>
+    </div>
     <script>
         let visible = true;
         let currentSize = parseInt(getCookie("fontSize")) || 22;
         let currentChapter = 0;
+        let currentBook = 0; // Default to Genesis
 
         function applyFontSize(size) {
+            console.log("Applying font size:", size);
             document.querySelectorAll('.chinese').forEach(el => {
                 el.style.fontSize = size + 'px';
             });
             document.querySelectorAll('.kjv-panel').forEach(el => {
-                el.style.fontSize = (size - 10) + 'px';
+                el.style.fontSize = '13px'; // Fixed to match pinyin size
             });
             document.getElementById("chapter-title").style.fontSize = (size + 6) + 'px';
-            document.querySelectorAll('.chapter-links span').forEach(el => {
-                el.style.fontSize = (size - 2) + 'px';
-            });
         }
 
         function adjustFontSize(change) {
+            console.log("Adjusting font size by:", change);
             currentSize += change;
             if (currentSize < 10) currentSize = 10;
             if (currentSize > 50) currentSize = 50;
             applyFontSize(currentSize);
-            document.cookie = "fontSize=" + currentSize + "; path=/";
+            setCookie("fontSize", currentSize);
         }
 
         function togglePinyin() {
+            console.log("Toggling pinyin visibility, current state:", visible);
             visible = !visible;
             document.querySelectorAll('.pinyin').forEach(el => {
                 el.style.opacity = visible ? '1' : '0';
@@ -251,6 +379,7 @@
         }
 
         function toggleKJV() {
+            console.log("Toggling KJV panel visibility");
             const panel = document.getElementById("kjvPanel");
             const content = document.getElementById("contentWrapper");
             panel.classList.toggle("hidden");
@@ -260,14 +389,21 @@
         }
 
         function getCookie(name) {
+            console.log("Getting cookie:", name);
             const value = "; " + document.cookie;
             const parts = value.split("; " + name + "=");
             if (parts.length === 2) return parts.pop().split(";").shift();
         }
 
-        // Modal handling
+        function setCookie(name, value) {
+            console.log("Setting cookie:", name, "to value:", value);
+            document.cookie = `${name}=${value}; path=/`;
+        }
+
+        // Modal handling for word details
         const modal = document.getElementById("wordModal");
         function showModal(wordBlock, x, y) {
+            console.log("Showing modal for wordBlock:", wordBlock);
             if (!wordBlock) {
                 console.warn("No wordBlock provided");
                 modal.classList.remove("show");
@@ -283,7 +419,6 @@
             document.getElementById("modalRelatedText").textContent = related;
             document.getElementById("modalRelated").classList.toggle("show", !!related);
 
-            // Position modal
             const modalWidth = 300;
             const modalHeight = modal.offsetHeight || 200;
             const offset = 10;
@@ -304,21 +439,108 @@
         }
 
         function closeModal() {
+            console.log("Closing modal");
             modal.classList.remove("show");
         }
 
+        // Book modal handling
+        const bookModal = document.getElementById("bookModal");
+        function openBookModal() {
+            console.log("Opening book modal");
+            bookModal.classList.add("show");
+        }
+
+        function closeBookModal() {
+            console.log("Closing book modal");
+            bookModal.classList.remove("show");
+        }
+
+        // Book and file mapping
+        const bookNames = [
+            'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy', 'Joshua', 'Judges', 'Ruth',
+            '1 Samuel', '2 Samuel', '1 Kings', '2 Kings', '1 Chronicles', '2 Chronicles', 'Ezra', 'Nehemiah',
+            'Esther', 'Job', 'Psalms', 'Proverbs', 'Ecclesiastes', 'Song of Solomon', 'Isaiah', 'Jeremiah',
+            'Lamentations', 'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos', 'Obadiah', 'Jonah', 'Micah',
+            'Nahum', 'Habakkuk', 'Zephaniah', 'Haggai', 'Zechariah', 'Malachi',
+            'Matthew', 'Mark', 'Luke', 'John', 'Acts', 'Romans', '1 Corinthians', '2 Corinthians',
+            'Galatians', 'Ephesians', 'Philippians', 'Colossians', '1 Thessalonians', '2 Thessalonians',
+            '1 Timothy', '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James', '1 Peter', '2 Peter',
+            '1 John', '2 John', '3 John', 'Jude', 'Revelation'
+        ];
+
+        const chineseBookNames = [
+            '创世记', '出埃及记', '利未记', '民数记', '申命记', '约书亚记', '士师记', '路得记',
+            '撒母耳记上', '撒母耳记下', '列王纪上', '列王纪下', '历代志上', '历代志下', '以斯拉记', '尼希米记',
+            '以斯帖记', '约伯记', '诗篇', '箴言', '传道书', '雅歌', '以赛亚书', '耶利米书',
+            '耶利米哀歌', '以西结书', '但以理书', '何西阿书', '约珥书', '阿摩司书', '俄巴底亚书', '约拿书', '弥迦书',
+            '那鸿书', '哈巴谷书', '西番雅书', '哈该书', '撒迦利亚书', '玛拉基书',
+            '马太福音', '马可福音', '路加福音', '约翰福音', '使徒行传', '罗马书', '哥林多前书', '哥林多后书',
+            '加拉太书', '以弗所书', '腓立比书', '歌罗西书', '帖撒罗尼迦前书', '帖撒罗尼迦后书',
+            '提摩太前书', '提摩太后书', '提多书', '腓利门书', '希伯来书', '雅各书', '彼得前书', '彼得后书',
+            '约翰一书', '约翰二书', '约翰三书', '犹大书', '启示录'
+        ];
+
+        // Populate book modal
+        function populateBookModal() {
+            const otBooksList = document.getElementById("otBooks");
+            const ntBooksList = document.getElementById("ntBooks");
+
+            // Old Testament (books 0-38)
+            for (let index = 0; index <= 38; index++) {
+                const li = document.createElement("li");
+                li.textContent = `${index + 1}. ${chineseBookNames[index]} (${bookNames[index]})`;
+                li.dataset.bookIndex = index;
+                li.addEventListener("click", () => {
+                    loadBookFromModal(index);
+                    closeBookModal();
+                });
+                otBooksList.appendChild(li);
+            }
+
+            // New Testament (books 39-65)
+            for (let index = 39; index <= 65; index++) {
+                const li = document.createElement("li");
+                li.textContent = `${index + 1}. ${chineseBookNames[index]} (${bookNames[index]})`;
+                li.dataset.bookIndex = index;
+                li.addEventListener("click", () => {
+                    loadBookFromModal(index);
+                    closeBookModal();
+                });
+                ntBooksList.appendChild(li);
+            }
+        }
+
+        // Load book from modal
+        function loadBookFromModal(bookIndex) {
+            console.log("Book selected from modal:", bookIndex, bookNames[bookIndex]);
+            currentBook = bookIndex;
+            currentChapter = 0; // Load first chapter
+            loadChapterLinks(bookIndex);
+            loadChapter(bookIndex, 0);
+            updateURL(bookIndex, 1); // Chapter 1 (1-based for URL)
+        }
+
         // Load and render chapter links
-        async function loadChapterLinks() {
+        async function loadChapterLinks(bookIndex) {
             const chapterLinksContainer = document.getElementById("chapter-links");
+            const bookFile = `${bookIndex.toString().padStart(2, '0')}_${bookNames[bookIndex].toLowerCase().replace(/ /g, '_')}_output.json`;
+            const url = `${bookFile}`; // Relative path
             
+            console.log("Fetching chapter links from:", url);
             try {
-                const response = await fetch('http://127.0.0.1:8000/01_exodus_output.json');
+                const response = await fetch(url);
+                console.log("Chapter links response status:", response.status);
                 if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
-                const data = await response.json();
+                const text = await response.text();
+                console.log("Raw chapter links text (first 100 chars):", text.substring(0, 100));
+                const cleanText = text.replace(/^\uFEFF/, '').replace(/^\xEF\xBB\xBF/, '');
+                const data = JSON.parse(cleanText);
+                console.log("Parsed chapter links data:", data);
                 
-                const book = data.Bible.Books.find(b => b.bookName === "出埃及记" || b.bookIndex === 1);
-                if (!book) throw new Error("Exodus not found");
+                const book = data.Bible.Books.find(b => b.bookIndex === bookIndex);
+                if (!book) throw new Error(`${bookNames[bookIndex]} not found`);
                 
+                console.log("Chapter links book:", book);
                 chapterLinksContainer.innerHTML = "";
                 
                 book.chapters.forEach(chapter => {
@@ -326,7 +548,9 @@
                     const chapterLink = document.createElement("span");
                     chapterLink.textContent = chapterNumber;
                     chapterLink.addEventListener("click", () => {
-                        loadChapter(chapter.chapterIndex);
+                        console.log("Clicked chapter link:", chapterNumber);
+                        loadChapter(bookIndex, chapter.chapterIndex);
+                        updateURL(bookIndex, chapterNumber);
                     });
                     chapterLinksContainer.appendChild(chapterLink);
                 });
@@ -334,20 +558,32 @@
                 highlightCurrentChapter();
             } catch (error) {
                 console.error("Error loading chapter links:", error);
-                // Fallback to hardcoded chapters
-                for (let i = 1; i <= 5; i++) {
-                    const chapterLink = document.createElement("span");
-                    chapterLink.textContent = i;
-                    chapterLink.addEventListener("click", () => {
-                        loadChapter(i - 1);
-                    });
-                    chapterLinksContainer.appendChild(chapterLink);
-                }
-                highlightCurrentChapter();
+                chapterLinksContainer.innerHTML = "<span>Error loading chapters</span>";
+                renderFallbackChapterLinks(bookIndex);
             }
         }
 
+        function renderFallbackChapterLinks(bookIndex) {
+            console.log("Rendering fallback chapter links for bookIndex:", bookIndex);
+            const chapterLinksContainer = document.getElementById("chapter-links");
+            const chapterCounts = { 0: 50, 1: 40, 2: 27 }; // Genesis: 50, Exodus: 40, Leviticus: 27
+            const numChapters = chapterCounts[bookIndex] || 1;
+            chapterLinksContainer.innerHTML = "";
+            for (let i = 1; i <= numChapters; i++) {
+                const chapterLink = document.createElement("span");
+                chapterLink.textContent = i;
+                chapterLink.addEventListener("click", () => {
+                    console.log("Clicked fallback chapter link:", i);
+                    loadChapter(bookIndex, i - 1);
+                    updateURL(bookIndex, i);
+                });
+                chapterLinksContainer.appendChild(chapterLink);
+            }
+            highlightCurrentChapter();
+        }
+
         function highlightCurrentChapter() {
+            console.log("Highlighting current chapter:", currentChapter);
             const chapterLinks = document.querySelectorAll('.chapter-links span');
             chapterLinks.forEach((link, index) => {
                 if (index === currentChapter) {
@@ -358,59 +594,139 @@
             });
         }
 
-        // Load a specific chapter for both Chinese and KJV
-        async function loadChapter(chapterIndex) {
+        // Update URL without reloading
+        function updateURL(bookIndex, chapterNumber) {
+            console.log("Updating URL to bookIndex:", bookIndex, "chapterNumber:", chapterNumber);
+            const url = new URL(window.location);
+            url.searchParams.set('book', bookIndex);
+            url.searchParams.set('chapter', chapterNumber);
+            window.history.pushState({}, '', url);
+        }
+
+        // Load a specific chapter
+        async function loadChapter(bookIndex, chapterIndex) {
+            console.log("Starting loadChapter for bookIndex:", bookIndex, "chapterIndex:", chapterIndex);
+            currentBook = bookIndex;
             currentChapter = chapterIndex;
             const verseContent = document.getElementById("verse-content");
             const errorMessage = document.getElementById("error-message");
             const chapterTitle = document.getElementById("chapter-title");
             const kjvContent = document.getElementById("kjv-content");
             const kjvTitle = document.getElementById("kjv-title");
-            
+            const loader = document.getElementById("loader");
+            const progress = document.getElementById("progress");
+
+            // Save book and chapter to cookies
+            setCookie("lastBook", bookIndex);
+            setCookie("lastChapter", chapterIndex);
+
+            // Show loader
+            console.log("Showing loader");
+            loader.style.display = 'flex';
+            verseContent.style.display = 'none';
+            kjvContent.style.display = 'none';
+            errorMessage.style.display = 'none';
+            progress.value = 10;
+
+            let chineseData = null, kjvData = null;
+            let chineseBook = null, kjvBook = null;
+            let chineseChapter = null, kjvChapter = null;
+
+            // Load Chinese Bible data
+            const bookFile = `${bookIndex.toString().padStart(2, '0')}_${bookNames[bookIndex].toLowerCase().replace(/ /g, '_')}_output.json`;
+            const chineseUrl = `${bookFile}`; // Relative path
+            console.log("Fetching Chinese data from:", chineseUrl);
             try {
-                // Load Chinese Bible data
-                const chineseResponse = await fetch('http://127.0.0.1:8000/01_exodus_output.json');
+                const chineseResponse = await fetch(chineseUrl);
+                console.log("Chinese response status:", chineseResponse.status);
                 if (!chineseResponse.ok) throw new Error(`HTTP error: ${chineseResponse.status}`);
-                const chineseData = await chineseResponse.json();
+                const chineseText = await chineseResponse.text();
+                console.log("Raw Chinese text (first 100 chars):", chineseText.substring(0, 100));
+                const cleanChineseText = chineseText.replace(/^\uFEFF/, '').replace(/^\xEF\xBB\xBF/, '');
+                chineseData = JSON.parse(cleanChineseText);
+                console.log("Parsed Chinese data:", chineseData);
 
-                const chineseBook = chineseData.Bible.Books.find(b => b.bookName === "出埃及记" || b.bookIndex === 1);
-                if (!chineseBook) throw new Error("Exodus not found in Chinese data");
-                const chineseChapter = chineseBook.chapters.find(c => c.chapterIndex === chapterIndex);
-                if (!chineseChapter) throw new Error("Chapter not found in Chinese data");
+                chineseBook = chineseData.Bible.Books.find(b => b.bookIndex === bookIndex);
+                if (!chineseBook) throw new Error(`Book ${bookNames[bookIndex]} not found in Chinese data`);
+                console.log("Chinese book:", chineseBook);
 
-                // Load KJV Bible data
-                const kjvResponse = await fetch('http://127.0.0.1:8000/kjv.json');
+                chineseChapter = chineseBook.chapters.find(c => c.chapterIndex === chapterIndex);
+                if (!chineseChapter) throw new Error(`Chapter ${chapterIndex + 1} not found in Chinese book ${bookNames[bookIndex]}`);
+                console.log("Chinese chapter:", chineseChapter);
+            } catch (error) {
+                console.error("Failed to load Chinese data:", error);
+                chineseData = null;
+            }
+
+            // Load KJV Bible data
+            const kjvUrl = 'KJV.json'; // Relative path
+            console.log("Fetching KJV data from:", kjvUrl);
+            try {
+                const kjvResponse = await fetch(kjvUrl);
+                console.log("KJV response status:", kjvResponse.status);
                 if (!kjvResponse.ok) throw new Error(`HTTP error: ${kjvResponse.status}`);
-                const kjvData = await kjvResponse.json();
+                const kjvText = await kjvResponse.text();
+                console.log("Raw KJV text (first 100 chars):", kjvText.substring(0, 100));
+                const cleanKjvText = kjvText.replace(/^\uFEFF/, '').replace(/^\xEF\xBB\xBF/, '');
+                kjvData = JSON.parse(cleanKjvText);
+                console.log("Parsed KJV data:", kjvData);
 
-                const kjvBook = kjvData.Bible.Books.find(b => b.bookName === "Exodus" || b.bookIndex === 1);
-                if (!kjvBook) throw new Error("Exodus not found in KJV data");
-                const kjvChapter = kjvBook.chapters.find(c => c.chapterIndex === chapterIndex);
-                if (!kjvChapter) throw new Error("Chapter not found in KJV data");
+                kjvBook = kjvData.Bible.Books.find(b => b.bookIndex === bookIndex);
+                if (!kjvBook) throw new Error(`Book ${bookNames[bookIndex]} not found in KJV data`);
+                console.log("KJV book:", kjvBook);
 
-                // Update chapter titles dynamically
-                chapterTitle.textContent = `${chineseBook.bookName} 第${chapterIndex + 1}章`;
-                kjvTitle.textContent = `${kjvBook.bookName} ${chapterIndex + 1} (KJV)`;
+                kjvChapter = kjvBook.chapters.find(c => c.chapterIndex === chapterIndex);
+                if (!kjvChapter) throw new Error(`Chapter ${chapterIndex + 1} not found in KJV book ${bookNames[bookIndex]}`);
+                console.log("KJV chapter:", kjvChapter);
+            } catch (error) {
+                console.error("Failed to load KJV data:", error);
+                kjvData = null;
+            }
 
-                // Render Chinese verses
-                verseContent.innerHTML = "";
+            // If both failed, throw an error
+            if (!chineseData && !kjvData) {
+                throw new Error("Failed to load both Chinese and KJV data");
+            }
+
+            // Update titles
+            console.log("Updating titles");
+            chapterTitle.textContent = chineseData && chineseBook
+                ? `${chineseBook.bookName} 第${chapterIndex + 1}章`
+                : `Book ${bookIndex + 1} Chapter ${chapterIndex + 1}`;
+            kjvTitle.textContent = kjvData && kjvBook
+                ? `${kjvBook.bookName} ${chapterIndex + 1} (KJV)`
+                : `KJV Chapter ${chapterIndex + 1}`;
+
+            // Render Chinese verses
+            console.log("Rendering Chinese verses");
+            verseContent.innerHTML = "";
+            if (chineseChapter && Array.isArray(chineseChapter.verses)) {
+                console.log("Chinese chapter verses:", chineseChapter.verses);
                 chineseChapter.verses.forEach(verse => {
+                    if (!verse || !Array.isArray(verse.words)) {
+                        console.warn(`Skipping invalid Chinese verse at index ${verse?.verseIndex}: ${JSON.stringify(verse)}`);
+                        return;
+                    }
                     const verseSpan = document.createElement("span");
                     verseSpan.className = "verse-number";
                     verseSpan.textContent = verse.verseIndex + 1;
                     verseContent.appendChild(verseSpan);
 
                     verse.words.forEach(word => {
+                        if (!word || !word.ChineseWord) {
+                            console.warn(`Skipping invalid word in verse ${verse.verseIndex + 1}: ${JSON.stringify(word)}`);
+                            return;
+                        }
                         const wordBlock = document.createElement("div");
                         wordBlock.className = "word-block";
                         wordBlock.dataset.hanzi = word.ChineseWord;
-                        wordBlock.dataset.pinyin = word.pinyin;
-                        wordBlock.dataset.english = word.engdef;
+                        wordBlock.dataset.pinyin = word.pinyin || "";
+                        wordBlock.dataset.english = word.engdef || "";
                         wordBlock.dataset.related = "";
 
                         const pinyinDiv = document.createElement("div");
                         pinyinDiv.className = "pinyin";
-                        pinyinDiv.textContent = word.pinyin;
+                        pinyinDiv.textContent = word.pinyin || "N/A";
                         wordBlock.appendChild(pinyinDiv);
 
                         const chineseDiv = document.createElement("div");
@@ -428,32 +744,45 @@
                         verseContent.appendChild(wordBlock);
                     });
                 });
+            } else {
+                console.log("No valid Chinese chapter data, using fallback");
+                renderFallbackData();
+            }
 
-                // Render KJV verses
-                kjvContent.innerHTML = "";
+            // Render KJV verses
+            console.log("Rendering KJV verses");
+            kjvContent.innerHTML = "";
+            if (kjvChapter && Array.isArray(kjvChapter.verses)) {
+                console.log("KJV chapter verses:", kjvChapter.verses);
                 kjvChapter.verses.forEach((verse, index) => {
-                    // Skip verses starting with '#'
-                    if (verse.startsWith('#')) return;
-
+                    if (typeof verse !== 'string') {
+                        console.warn(`Skipping invalid KJV verse at index ${index}: ${JSON.stringify(verse)}`);
+                        return;
+                    }
+                    if (verse.startsWith('#')) return; // Skip comments
                     const verseDiv = document.createElement("div");
                     verseDiv.innerHTML = `<strong>${index + 1}</strong> ${verse}<br>`;
                     kjvContent.appendChild(verseDiv);
                 });
-
-                applyFontSize(currentSize);
-                highlightCurrentChapter();
-                errorMessage.style.display = "none";
-            } catch (error) {
-                console.error("Error loading chapter:", error);
-                errorMessage.textContent = "Failed to load chapter data.";
-                errorMessage.style.display = "block";
-                renderFallbackData();
+            } else {
+                console.log("No valid KJV chapter data, using fallback");
                 renderFallbackKJV();
             }
+
+            // Log rendered HTML for debugging
+            console.log("Rendered verse-content HTML:", verseContent.innerHTML);
+            console.log("Rendered kjv-content HTML:", kjvContent.innerHTML);
+
+            applyFontSize(currentSize);
+            highlightCurrentChapter();
+            verseContent.style.display = 'block';
+            kjvContent.style.display = 'block';
+            loader.style.display = 'none';
         }
 
         // Fallback to hardcoded Chinese data (Exodus)
         function renderFallbackData() {
+            console.log("Rendering fallback Chinese data");
             const verseContent = document.getElementById("verse-content");
             verseContent.innerHTML = `
                 <span class="verse-number">1</span>
@@ -504,6 +833,7 @@
 
         // Fallback to hardcoded KJV data (Exodus)
         function renderFallbackKJV() {
+            console.log("Rendering fallback KJV data");
             const kjvContent = document.getElementById("kjv-content");
             kjvContent.innerHTML = `
                 <div><strong>1</strong> Now these are the names of the children of Israel, which came into Egypt; every man and his household came with Jacob.<br></div>
@@ -513,9 +843,41 @@
             `;
         }
 
+        // Initialize based on URL parameters or cookies
         window.onload = () => {
-            loadChapterLinks();
-            loadChapter(0); // Load first chapter by default
+            console.log("Window.onload triggered");
+            const urlParams = new URLSearchParams(window.location.search);
+            let bookIndex = parseInt(urlParams.get('book'));
+            let chapterIndex = parseInt(urlParams.get('chapter')) - 1;
+
+            // If URL params are not set, try to load from cookies
+            if (isNaN(bookIndex) || isNaN(chapterIndex)) {
+                const lastBook = parseInt(getCookie("lastBook"));
+                const lastChapter = parseInt(getCookie("lastChapter"));
+                if (!isNaN(lastBook) && !isNaN(lastChapter)) {
+                    bookIndex = lastBook;
+                    chapterIndex = lastChapter;
+                    console.log("Loaded from cookies: bookIndex:", bookIndex, "chapterIndex:", chapterIndex);
+                } else {
+                    bookIndex = 0; // Default to Genesis
+                    chapterIndex = 0; // Default to Chapter 1 (0-based)
+                    console.log("No cookies found, using defaults: bookIndex:", bookIndex, "chapterIndex:", chapterIndex);
+                }
+            } else {
+                console.log("Loaded from URL: bookIndex:", bookIndex, "chapterIndex:", chapterIndex);
+            }
+
+            if (bookIndex < 0 || bookIndex > 65) bookIndex = 0; // Default to Genesis if invalid
+            if (chapterIndex < 0) chapterIndex = 0;
+            currentBook = bookIndex;
+            currentChapter = chapterIndex;
+
+            // Populate book modal
+            populateBookModal();
+
+            console.log("Initial bookIndex:", bookIndex, "chapterIndex:", chapterIndex);
+            loadChapterLinks(bookIndex);
+            loadChapter(bookIndex, chapterIndex);
         };
     </script>
 </body>
