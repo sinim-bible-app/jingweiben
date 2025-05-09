@@ -1,0 +1,4428 @@
+{
+  "Bible": {
+    "name": "京委本",
+    "version": "0.4",
+    "copywriteType": "GPL",
+    "Books": [
+      {
+        "bookIndex": 30,
+        "bookName": "俄巴底亚书",
+        "chapters": [
+          {
+            "chapterIndex": 0,
+            "verses": [
+              {
+                "verseIndex": 0,
+                "chineseVerse": "阿巴底亚得主天主的默示、论以东说、我们在主那里听见音信、有人被差遣往列邦去宣告说、我们尽都兴起、上去攻击以东。",
+                "pinyin": "ā bā dǐ yà dé zhǔ tiān zhǔ de mò shì lùn yǐ dōng shuō wǒ men zài zhǔ nà li tīng jiàn yīn xìn yǒu rén bèi chāi qiǎn wǎng liè bāng qù xuān gào shuō wǒ men jìn dōu xīng qǐ shàng qù gōng jī yǐ dōng",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "阿巴底亚",
+                    "characters": [
+                      "阿",
+                      "巴",
+                      "底",
+                      "亚"
+                    ],
+                    "pinyin": "ā bā dǐ yà",
+                    "engdef": "Obadiah"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "received"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "天主",
+                    "characters": [
+                      "天",
+                      "主"
+                    ],
+                    "pinyin": "tiān zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "默示",
+                    "characters": [
+                      "默",
+                      "示"
+                    ],
+                    "pinyin": "mò shì",
+                    "engdef": "revelation"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "论",
+                    "characters": [
+                      "论"
+                    ],
+                    "pinyin": "lùn",
+                    "engdef": "concerning"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "以东",
+                    "characters": [
+                      "以",
+                      "东"
+                    ],
+                    "pinyin": "yǐ dōng",
+                    "engdef": "Edom"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "说",
+                    "characters": [
+                      "说"
+                    ],
+                    "pinyin": "shuō",
+                    "engdef": "said"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "我们",
+                    "characters": [
+                      "我",
+                      "们"
+                    ],
+                    "pinyin": "wǒ men",
+                    "engdef": "we"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "在",
+                    "characters": [
+                      "在"
+                    ],
+                    "pinyin": "zài",
+                    "engdef": "in"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "那里",
+                    "characters": [
+                      "那",
+                      "里"
+                    ],
+                    "pinyin": "nà li",
+                    "engdef": "there"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "听见",
+                    "characters": [
+                      "听",
+                      "见"
+                    ],
+                    "pinyin": "tīng jiàn",
+                    "engdef": "heard"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "音信",
+                    "characters": [
+                      "音",
+                      "信"
+                    ],
+                    "pinyin": "yīn xìn",
+                    "engdef": "message"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "有人",
+                    "characters": [
+                      "有",
+                      "人"
+                    ],
+                    "pinyin": "yǒu rén",
+                    "engdef": "someone"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "被",
+                    "characters": [
+                      "被"
+                    ],
+                    "pinyin": "bèi",
+                    "engdef": "by"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "差遣",
+                    "characters": [
+                      "差",
+                      "遣"
+                    ],
+                    "pinyin": "chāi qiǎn",
+                    "engdef": "sent"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "往",
+                    "characters": [
+                      "往"
+                    ],
+                    "pinyin": "wǎng",
+                    "engdef": "to"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "列邦",
+                    "characters": [
+                      "列",
+                      "邦"
+                    ],
+                    "pinyin": "liè bāng",
+                    "engdef": "nations"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "去",
+                    "characters": [
+                      "去"
+                    ],
+                    "pinyin": "qù",
+                    "engdef": "go"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "宣告",
+                    "characters": [
+                      "宣",
+                      "告"
+                    ],
+                    "pinyin": "xuān gào",
+                    "engdef": "proclaim"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "说",
+                    "characters": [
+                      "说"
+                    ],
+                    "pinyin": "shuō",
+                    "engdef": "said"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "我们",
+                    "characters": [
+                      "我",
+                      "们"
+                    ],
+                    "pinyin": "wǒ men",
+                    "engdef": "we"
+                  },
+                  {
+                    "wordIndex": 24,
+                    "ChineseWord": "尽都",
+                    "characters": [
+                      "尽",
+                      "都"
+                    ],
+                    "pinyin": "jìn dōu",
+                    "engdef": "all"
+                  },
+                  {
+                    "wordIndex": 25,
+                    "ChineseWord": "兴起",
+                    "characters": [
+                      "兴",
+                      "起"
+                    ],
+                    "pinyin": "xīng qǐ",
+                    "engdef": "rise up"
+                  },
+                  {
+                    "wordIndex": 26,
+                    "ChineseWord": "上去",
+                    "characters": [
+                      "上",
+                      "去"
+                    ],
+                    "pinyin": "shàng qù",
+                    "engdef": "go up"
+                  },
+                  {
+                    "wordIndex": 27,
+                    "ChineseWord": "攻击",
+                    "characters": [
+                      "攻",
+                      "击"
+                    ],
+                    "pinyin": "gōng jī",
+                    "engdef": "attack"
+                  },
+                  {
+                    "wordIndex": 28,
+                    "ChineseWord": "以东",
+                    "characters": [
+                      "以",
+                      "东"
+                    ],
+                    "pinyin": "yǐ dōng",
+                    "engdef": "Edom"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 1,
+                "chineseVerse": "主对以东说、我使你在列邦中为最小、令你极被藐视。",
+                "pinyin": "zhǔ duì yǐ dōng shuō wǒ shǐ nǐ zài liè bāng zhōng wéi zuì xiǎo lìng nǐ jí bèi miǎo shì",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "对",
+                    "characters": [
+                      "对"
+                    ],
+                    "pinyin": "duì",
+                    "engdef": "to"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "以东",
+                    "characters": [
+                      "以",
+                      "东"
+                    ],
+                    "pinyin": "yǐ dōng",
+                    "engdef": "Edom"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "说",
+                    "characters": [
+                      "说"
+                    ],
+                    "pinyin": "shuō",
+                    "engdef": "said"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "我",
+                    "characters": [
+                      "我"
+                    ],
+                    "pinyin": "wǒ",
+                    "engdef": "I"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "使",
+                    "characters": [
+                      "使"
+                    ],
+                    "pinyin": "shǐ",
+                    "engdef": "make"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "在",
+                    "characters": [
+                      "在"
+                    ],
+                    "pinyin": "zài",
+                    "engdef": "in"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "列邦",
+                    "characters": [
+                      "列",
+                      "邦"
+                    ],
+                    "pinyin": "liè bāng",
+                    "engdef": "nations"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "中",
+                    "characters": [
+                      "中"
+                    ],
+                    "pinyin": "zhōng",
+                    "engdef": "among"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "为",
+                    "characters": [
+                      "为"
+                    ],
+                    "pinyin": "wéi",
+                    "engdef": "as"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "最小",
+                    "characters": [
+                      "最",
+                      "小"
+                    ],
+                    "pinyin": "zuì xiǎo",
+                    "engdef": "the least"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "令",
+                    "characters": [
+                      "令"
+                    ],
+                    "pinyin": "lìng",
+                    "engdef": "cause"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "极",
+                    "characters": [
+                      "极"
+                    ],
+                    "pinyin": "jí",
+                    "engdef": "extremely"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "被",
+                    "characters": [
+                      "被"
+                    ],
+                    "pinyin": "bèi",
+                    "engdef": "by"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "藐视",
+                    "characters": [
+                      "藐",
+                      "视"
+                    ],
+                    "pinyin": "miǎo shì",
+                    "engdef": "despised"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 2,
+                "chineseVerse": "你住在山崖、居在高处、心中狂傲自昧、心里说、谁能使我卑降到地。",
+                "pinyin": "nǐ zhù zài shān yá jū zài gāo chù xīn zhōng kuáng ào zì mèi xīn lǐ shuō shéi néng shǐ wǒ bēi jiàng dào dì",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "住在",
+                    "characters": [
+                      "住",
+                      "在"
+                    ],
+                    "pinyin": "zhù zài",
+                    "engdef": "live in"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "山崖",
+                    "characters": [
+                      "山",
+                      "崖"
+                    ],
+                    "pinyin": "shān yá",
+                    "engdef": "cliff"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "居",
+                    "characters": [
+                      "居"
+                    ],
+                    "pinyin": "jū",
+                    "engdef": "dwell"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "在",
+                    "characters": [
+                      "在"
+                    ],
+                    "pinyin": "zài",
+                    "engdef": "at"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "高处",
+                    "characters": [
+                      "高",
+                      "处"
+                    ],
+                    "pinyin": "gāo chù",
+                    "engdef": "high place"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "心中",
+                    "characters": [
+                      "心",
+                      "中"
+                    ],
+                    "pinyin": "xīn zhōng",
+                    "engdef": "in heart"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "狂傲",
+                    "characters": [
+                      "狂",
+                      "傲"
+                    ],
+                    "pinyin": "kuáng ào",
+                    "engdef": "arrogant"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "自昧",
+                    "characters": [
+                      "自",
+                      "昧"
+                    ],
+                    "pinyin": "zì mèi",
+                    "engdef": "self-deceived"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "心里",
+                    "characters": [
+                      "心",
+                      "里"
+                    ],
+                    "pinyin": "xīn lǐ",
+                    "engdef": "in heart"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "说",
+                    "characters": [
+                      "说"
+                    ],
+                    "pinyin": "shuō",
+                    "engdef": "say"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "谁",
+                    "characters": [
+                      "谁"
+                    ],
+                    "pinyin": "shéi",
+                    "engdef": "who"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "能",
+                    "characters": [
+                      "能"
+                    ],
+                    "pinyin": "néng",
+                    "engdef": "can"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "使",
+                    "characters": [
+                      "使"
+                    ],
+                    "pinyin": "shǐ",
+                    "engdef": "make"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "我",
+                    "characters": [
+                      "我"
+                    ],
+                    "pinyin": "wǒ",
+                    "engdef": "me"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "卑降",
+                    "characters": [
+                      "卑",
+                      "降"
+                    ],
+                    "pinyin": "bēi jiàng",
+                    "engdef": "humble down"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "到",
+                    "characters": [
+                      "到"
+                    ],
+                    "pinyin": "dào",
+                    "engdef": "to"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "地",
+                    "characters": [
+                      "地"
+                    ],
+                    "pinyin": "dì",
+                    "engdef": "ground"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 3,
+                "chineseVerse": "你虽高举如鹰、结巢在星间、我必使你从那里降落。这是主说的。",
+                "pinyin": "nǐ suī gāo jǔ rú yīng jié cháo zài xīng jiān wǒ bì shǐ nǐ cóng nà lǐ jiàng luò zhè shì zhǔ shuō",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "虽",
+                    "characters": [
+                      "虽"
+                    ],
+                    "pinyin": "suī",
+                    "engdef": "although"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "高举",
+                    "characters": [
+                      "高",
+                      "举"
+                    ],
+                    "pinyin": "gāo jǔ",
+                    "engdef": "lift high"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "如",
+                    "characters": [
+                      "如"
+                    ],
+                    "pinyin": "rú",
+                    "engdef": "like"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "鹰",
+                    "characters": [
+                      "鹰"
+                    ],
+                    "pinyin": "yīng",
+                    "engdef": "eagle"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "结巢",
+                    "characters": [
+                      "结",
+                      "巢"
+                    ],
+                    "pinyin": "jié cháo",
+                    "engdef": "build nest"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "在",
+                    "characters": [
+                      "在"
+                    ],
+                    "pinyin": "zài",
+                    "engdef": "in"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "星间",
+                    "characters": [
+                      "星",
+                      "间"
+                    ],
+                    "pinyin": "xīng jiān",
+                    "engdef": "among the stars"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "我",
+                    "characters": [
+                      "我"
+                    ],
+                    "pinyin": "wǒ",
+                    "engdef": "I"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "will"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "使",
+                    "characters": [
+                      "使"
+                    ],
+                    "pinyin": "shǐ",
+                    "engdef": "cause"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "从",
+                    "characters": [
+                      "从"
+                    ],
+                    "pinyin": "cóng",
+                    "engdef": "from"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "那里",
+                    "characters": [
+                      "那",
+                      "里"
+                    ],
+                    "pinyin": "nà lǐ",
+                    "engdef": "there"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "降落",
+                    "characters": [
+                      "降",
+                      "落"
+                    ],
+                    "pinyin": "jiàng luò",
+                    "engdef": "descend"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "这是",
+                    "characters": [
+                      "这",
+                      "是"
+                    ],
+                    "pinyin": "zhè shì",
+                    "engdef": "this is"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "说",
+                    "characters": [
+                      "说"
+                    ],
+                    "pinyin": "shuō",
+                    "engdef": "said"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 4,
+                "chineseVerse": "若有贼来、或有盗夜来偷窃、不过满愿为止、摘葡萄的若来、必有所遗留、你却灭绝净尽。",
+                "pinyin": "ruò yǒu zéi lái huò yǒu dào yè lái tōu qiè bù guò mǎn yuàn wéi zhǐ zhāi pú táo de ruò lái bì yǒu suǒ yí liú nǐ què miè jué jìng jìn",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "若有",
+                    "characters": [
+                      "若",
+                      "有"
+                    ],
+                    "pinyin": "ruò yǒu",
+                    "engdef": "if there are"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "贼",
+                    "characters": [
+                      "贼"
+                    ],
+                    "pinyin": "zéi",
+                    "engdef": "thieves"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "来",
+                    "characters": [
+                      "来"
+                    ],
+                    "pinyin": "lái",
+                    "engdef": "come"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "或",
+                    "characters": [
+                      "或"
+                    ],
+                    "pinyin": "huò",
+                    "engdef": "or"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "有",
+                    "characters": [
+                      "有"
+                    ],
+                    "pinyin": "yǒu",
+                    "engdef": "there are"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "盗",
+                    "characters": [
+                      "盗"
+                    ],
+                    "pinyin": "dào",
+                    "engdef": "robbers"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "夜",
+                    "characters": [
+                      "夜"
+                    ],
+                    "pinyin": "yè",
+                    "engdef": "night"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "来",
+                    "characters": [
+                      "来"
+                    ],
+                    "pinyin": "lái",
+                    "engdef": "come"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "偷窃",
+                    "characters": [
+                      "偷",
+                      "窃"
+                    ],
+                    "pinyin": "tōu qiè",
+                    "engdef": "steal"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "不过",
+                    "characters": [
+                      "不",
+                      "过"
+                    ],
+                    "pinyin": "bù guò",
+                    "engdef": "only"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "满愿",
+                    "characters": [
+                      "满",
+                      "愿"
+                    ],
+                    "pinyin": "mǎn yuàn",
+                    "engdef": "satisfy desire"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "为止",
+                    "characters": [
+                      "为",
+                      "止"
+                    ],
+                    "pinyin": "wéi zhǐ",
+                    "engdef": "until"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "摘",
+                    "characters": [
+                      "摘"
+                    ],
+                    "pinyin": "zhāi",
+                    "engdef": "pick"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "葡萄",
+                    "characters": [
+                      "葡",
+                      "萄"
+                    ],
+                    "pinyin": "pú táo",
+                    "engdef": "grapes"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "particle"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "若",
+                    "characters": [
+                      "若"
+                    ],
+                    "pinyin": "ruò",
+                    "engdef": "if"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "来",
+                    "characters": [
+                      "来"
+                    ],
+                    "pinyin": "lái",
+                    "engdef": "come"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "有",
+                    "characters": [
+                      "有"
+                    ],
+                    "pinyin": "yǒu",
+                    "engdef": "there is"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "所",
+                    "characters": [
+                      "所"
+                    ],
+                    "pinyin": "suǒ",
+                    "engdef": "that which"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "遗留",
+                    "characters": [
+                      "遗",
+                      "留"
+                    ],
+                    "pinyin": "yí liú",
+                    "engdef": "leave behind"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "却",
+                    "characters": [
+                      "却"
+                    ],
+                    "pinyin": "què",
+                    "engdef": "but"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "灭绝",
+                    "characters": [
+                      "灭",
+                      "绝"
+                    ],
+                    "pinyin": "miè jué",
+                    "engdef": "destroy completely"
+                  },
+                  {
+                    "wordIndex": 24,
+                    "ChineseWord": "净尽",
+                    "characters": [
+                      "净",
+                      "尽"
+                    ],
+                    "pinyin": "jìng jìn",
+                    "engdef": "utterly"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 5,
+                "chineseVerse": "以扫何竟被搜索、他的宝藏都被尽察。",
+                "pinyin": "yǐ sǎo hé jìng bèi sōu suǒ tā de bǎo zàng dōu bèi jìn chá",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "以扫",
+                    "characters": [
+                      "以",
+                      "扫"
+                    ],
+                    "pinyin": "yǐ sǎo",
+                    "engdef": "Esau"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "何竟",
+                    "characters": [
+                      "何",
+                      "竟"
+                    ],
+                    "pinyin": "hé jìng",
+                    "engdef": "how actually"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "被",
+                    "characters": [
+                      "被"
+                    ],
+                    "pinyin": "bèi",
+                    "engdef": "by"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "搜索",
+                    "characters": [
+                      "搜",
+                      "索"
+                    ],
+                    "pinyin": "sōu suǒ",
+                    "engdef": "searched"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "他的",
+                    "characters": [
+                      "他",
+                      "的"
+                    ],
+                    "pinyin": "tā de",
+                    "engdef": "his"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "宝藏",
+                    "characters": [
+                      "宝",
+                      "藏"
+                    ],
+                    "pinyin": "bǎo zàng",
+                    "engdef": "treasures"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "都",
+                    "characters": [
+                      "都"
+                    ],
+                    "pinyin": "dōu",
+                    "engdef": "all"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "被",
+                    "characters": [
+                      "被"
+                    ],
+                    "pinyin": "bèi",
+                    "engdef": "by"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "尽察",
+                    "characters": [
+                      "尽",
+                      "察"
+                    ],
+                    "pinyin": "jìn chá",
+                    "engdef": "thoroughly examined"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 6,
+                "chineseVerse": "与你结盟的反倒驱逐你到交界、与你和好的都哄骗你、且胜你、与你同食的都设立网罗陷害你、你心毫无觉察。",
+                "pinyin": "yǔ nǐ jié méng de fǎn dào qū zhú nǐ dào jiāo jiè yǔ nǐ hé hǎo de dōu hǒng piàn nǐ qiě shèng nǐ yǔ nǐ tóng shí de dōu shè lì wǎng luó xiàn hài nǐ nǐ xīn háo wú jué chá",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "与",
+                    "characters": [
+                      "与"
+                    ],
+                    "pinyin": "yǔ",
+                    "engdef": "with"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "结盟",
+                    "characters": [
+                      "结",
+                      "盟"
+                    ],
+                    "pinyin": "jié méng",
+                    "engdef": "allied"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "反倒",
+                    "characters": [
+                      "反",
+                      "倒"
+                    ],
+                    "pinyin": "fǎn dào",
+                    "engdef": "instead"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "驱逐",
+                    "characters": [
+                      "驱",
+                      "逐"
+                    ],
+                    "pinyin": "qū zhú",
+                    "engdef": "expel"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "到",
+                    "characters": [
+                      "到"
+                    ],
+                    "pinyin": "dào",
+                    "engdef": "to"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "交界",
+                    "characters": [
+                      "交",
+                      "界"
+                    ],
+                    "pinyin": "jiāo jiè",
+                    "engdef": "border"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "与",
+                    "characters": [
+                      "与"
+                    ],
+                    "pinyin": "yǔ",
+                    "engdef": "with"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "和好",
+                    "characters": [
+                      "和",
+                      "好"
+                    ],
+                    "pinyin": "hé hǎo",
+                    "engdef": "peaceful"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "都",
+                    "characters": [
+                      "都"
+                    ],
+                    "pinyin": "dōu",
+                    "engdef": "all"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "哄骗",
+                    "characters": [
+                      "哄",
+                      "骗"
+                    ],
+                    "pinyin": "hǒng piàn",
+                    "engdef": "deceive"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "且",
+                    "characters": [
+                      "且"
+                    ],
+                    "pinyin": "qiě",
+                    "engdef": "and"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "胜",
+                    "characters": [
+                      "胜"
+                    ],
+                    "pinyin": "shèng",
+                    "engdef": "overcome"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "与",
+                    "characters": [
+                      "与"
+                    ],
+                    "pinyin": "yǔ",
+                    "engdef": "with"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "同食",
+                    "characters": [
+                      "同",
+                      "食"
+                    ],
+                    "pinyin": "tóng shí",
+                    "engdef": "eat together"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "都",
+                    "characters": [
+                      "都"
+                    ],
+                    "pinyin": "dōu",
+                    "engdef": "all"
+                  },
+                  {
+                    "wordIndex": 24,
+                    "ChineseWord": "设立",
+                    "characters": [
+                      "设",
+                      "立"
+                    ],
+                    "pinyin": "shè lì",
+                    "engdef": "set up"
+                  },
+                  {
+                    "wordIndex": 25,
+                    "ChineseWord": "网罗",
+                    "characters": [
+                      "网",
+                      "罗"
+                    ],
+                    "pinyin": "wǎng luó",
+                    "engdef": "snare"
+                  },
+                  {
+                    "wordIndex": 26,
+                    "ChineseWord": "陷害",
+                    "characters": [
+                      "陷",
+                      "害"
+                    ],
+                    "pinyin": "xiàn hài",
+                    "engdef": "harm"
+                  },
+                  {
+                    "wordIndex": 27,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 28,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 29,
+                    "ChineseWord": "心",
+                    "characters": [
+                      "心"
+                    ],
+                    "pinyin": "xīn",
+                    "engdef": "heart"
+                  },
+                  {
+                    "wordIndex": 30,
+                    "ChineseWord": "毫无",
+                    "characters": [
+                      "毫",
+                      "无"
+                    ],
+                    "pinyin": "háo wú",
+                    "engdef": "completely without"
+                  },
+                  {
+                    "wordIndex": 31,
+                    "ChineseWord": "觉察",
+                    "characters": [
+                      "觉",
+                      "察"
+                    ],
+                    "pinyin": "jué chá",
+                    "engdef": "awareness"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 7,
+                "chineseVerse": "主说、到那日、我必从以东灭绝智慧人、从以扫山灭绝明哲人。",
+                "pinyin": "zhǔ shuō dào nà rì wǒ bì cóng yǐ dōng miè jué zhì huì rén cóng yǐ sǎo shān miè jué míng zhé rén",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "说",
+                    "characters": [
+                      "说"
+                    ],
+                    "pinyin": "shuō",
+                    "engdef": "said"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "到",
+                    "characters": [
+                      "到"
+                    ],
+                    "pinyin": "dào",
+                    "engdef": "until"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "那日",
+                    "characters": [
+                      "那",
+                      "日"
+                    ],
+                    "pinyin": "nà rì",
+                    "engdef": "that day"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "我",
+                    "characters": [
+                      "我"
+                    ],
+                    "pinyin": "wǒ",
+                    "engdef": "I"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "will"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "从",
+                    "characters": [
+                      "从"
+                    ],
+                    "pinyin": "cóng",
+                    "engdef": "from"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "以东",
+                    "characters": [
+                      "以",
+                      "东"
+                    ],
+                    "pinyin": "yǐ dōng",
+                    "engdef": "Edom"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "灭绝",
+                    "characters": [
+                      "灭",
+                      "绝"
+                    ],
+                    "pinyin": "miè jué",
+                    "engdef": "destroy"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "智慧人",
+                    "characters": [
+                      "智",
+                      "慧",
+                      "人"
+                    ],
+                    "pinyin": "zhì huì rén",
+                    "engdef": "wise people"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "从",
+                    "characters": [
+                      "从"
+                    ],
+                    "pinyin": "cóng",
+                    "engdef": "from"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "以扫山",
+                    "characters": [
+                      "以",
+                      "扫",
+                      "山"
+                    ],
+                    "pinyin": "yǐ sǎo shān",
+                    "engdef": "Mount Esau"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "灭绝",
+                    "characters": [
+                      "灭",
+                      "绝"
+                    ],
+                    "pinyin": "miè jué",
+                    "engdef": "destroy"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "明哲人",
+                    "characters": [
+                      "明",
+                      "哲",
+                      "人"
+                    ],
+                    "pinyin": "míng zhé rén",
+                    "engdef": "understanding people"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 8,
+                "chineseVerse": "提幔啊、你的勇士都胆怯惊惶、以扫山的居民、都杀尽灭绝。",
+                "pinyin": "tí màn a nǐ de yǒng shì dōu dǎn qiè jīng huáng yǐ sǎo shān de jū mín dōu shā jìn miè jué",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "提幔",
+                    "characters": [
+                      "提",
+                      "幔"
+                    ],
+                    "pinyin": "tí màn",
+                    "engdef": "Teman"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "啊",
+                    "characters": [
+                      "啊"
+                    ],
+                    "pinyin": "a",
+                    "engdef": "interjection"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "你的",
+                    "characters": [
+                      "你",
+                      "的"
+                    ],
+                    "pinyin": "nǐ de",
+                    "engdef": "your"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "勇士",
+                    "characters": [
+                      "勇",
+                      "士"
+                    ],
+                    "pinyin": "yǒng shì",
+                    "engdef": "warriors"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "都",
+                    "characters": [
+                      "都"
+                    ],
+                    "pinyin": "dōu",
+                    "engdef": "all"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "胆怯",
+                    "characters": [
+                      "胆",
+                      "怯"
+                    ],
+                    "pinyin": "dǎn qiè",
+                    "engdef": "timid"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "惊惶",
+                    "characters": [
+                      "惊",
+                      "惶"
+                    ],
+                    "pinyin": "jīng huáng",
+                    "engdef": "terrified"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "以扫山",
+                    "characters": [
+                      "以",
+                      "扫",
+                      "山"
+                    ],
+                    "pinyin": "yǐ sǎo shān",
+                    "engdef": "Mount Esau"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "居民",
+                    "characters": [
+                      "居",
+                      "民"
+                    ],
+                    "pinyin": "jū mín",
+                    "engdef": "inhabitants"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "都",
+                    "characters": [
+                      "都"
+                    ],
+                    "pinyin": "dōu",
+                    "engdef": "all"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "杀尽",
+                    "characters": [
+                      "杀",
+                      "尽"
+                    ],
+                    "pinyin": "shā jìn",
+                    "engdef": "utterly killed"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "灭绝",
+                    "characters": [
+                      "灭",
+                      "绝"
+                    ],
+                    "pinyin": "miè jué",
+                    "engdef": "destroyed"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 9,
+                "chineseVerse": "因你向你兄弟雅各行强暴、必受辱蒙羞、灭绝到永远。",
+                "pinyin": "yīn nǐ xiàng nǐ xiōng dì yǎ gè xíng qiáng bào bì shòu rǔ méng xiū miè jué dào yǒng yuǎn",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "因",
+                    "characters": [
+                      "因"
+                    ],
+                    "pinyin": "yīn",
+                    "engdef": "because"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "向",
+                    "characters": [
+                      "向"
+                    ],
+                    "pinyin": "xiàng",
+                    "engdef": "toward"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "your"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "兄弟",
+                    "characters": [
+                      "兄",
+                      "弟"
+                    ],
+                    "pinyin": "xiōng dì",
+                    "engdef": "brother"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "雅各",
+                    "characters": [
+                      "雅",
+                      "各"
+                    ],
+                    "pinyin": "yǎ gè",
+                    "engdef": "Jacob"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "行",
+                    "characters": [
+                      "行"
+                    ],
+                    "pinyin": "xíng",
+                    "engdef": "commit"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "强暴",
+                    "characters": [
+                      "强",
+                      "暴"
+                    ],
+                    "pinyin": "qiáng bào",
+                    "engdef": "violence"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "will"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "受辱",
+                    "characters": [
+                      "受",
+                      "辱"
+                    ],
+                    "pinyin": "shòu rǔ",
+                    "engdef": "be humiliated"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "蒙羞",
+                    "characters": [
+                      "蒙",
+                      "羞"
+                    ],
+                    "pinyin": "méng xiū",
+                    "engdef": "be shamed"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "灭绝",
+                    "characters": [
+                      "灭",
+                      "绝"
+                    ],
+                    "pinyin": "miè jué",
+                    "engdef": "be destroyed"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "到",
+                    "characters": [
+                      "到"
+                    ],
+                    "pinyin": "dào",
+                    "engdef": "until"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "永远",
+                    "characters": [
+                      "永",
+                      "远"
+                    ],
+                    "pinyin": "yǒng yuǎn",
+                    "engdef": "forever"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 10,
+                "chineseVerse": "当日你见外邦人来掳掠雅各的货财、异族的人进入他的城门、为耶路撒冷掣签、你却对着站立、行动与仇敌无异。",
+                "pinyin": "dāng rì nǐ jiàn wài bāng rén lái lǔ lüè yǎ gè de huò cái yì zú de rén jìn rù tā de chéng mén wèi yē lù sā lěng chè qiān nǐ què duì zhe zhàn lì xíng dòng yǔ chóu dí wú yì",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "当日",
+                    "characters": [
+                      "当",
+                      "日"
+                    ],
+                    "pinyin": "dāng rì",
+                    "engdef": "that day"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "见",
+                    "characters": [
+                      "见"
+                    ],
+                    "pinyin": "jiàn",
+                    "engdef": "saw"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "外邦人",
+                    "characters": [
+                      "外",
+                      "邦",
+                      "人"
+                    ],
+                    "pinyin": "wài bāng rén",
+                    "engdef": "foreigners"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "来",
+                    "characters": [
+                      "来"
+                    ],
+                    "pinyin": "lái",
+                    "engdef": "came"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "掳掠",
+                    "characters": [
+                      "掳",
+                      "掠"
+                    ],
+                    "pinyin": "lǔ lüè",
+                    "engdef": "plunder"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "雅各",
+                    "characters": [
+                      "雅",
+                      "各"
+                    ],
+                    "pinyin": "yǎ gè",
+                    "engdef": "Jacob"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "货财",
+                    "characters": [
+                      "货",
+                      "财"
+                    ],
+                    "pinyin": "huò cái",
+                    "engdef": "goods and wealth"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "异族",
+                    "characters": [
+                      "异",
+                      "族"
+                    ],
+                    "pinyin": "yì zú",
+                    "engdef": "alien people"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "进入",
+                    "characters": [
+                      "进",
+                      "入"
+                    ],
+                    "pinyin": "jìn rù",
+                    "engdef": "entered"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "他",
+                    "characters": [
+                      "他"
+                    ],
+                    "pinyin": "tā",
+                    "engdef": "his"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "城门",
+                    "characters": [
+                      "城",
+                      "门"
+                    ],
+                    "pinyin": "chéng mén",
+                    "engdef": "city gates"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "为",
+                    "characters": [
+                      "为"
+                    ],
+                    "pinyin": "wèi",
+                    "engdef": "for"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "耶路撒冷",
+                    "characters": [
+                      "耶",
+                      "路",
+                      "撒",
+                      "冷"
+                    ],
+                    "pinyin": "yē lù sā lěng",
+                    "engdef": "Jerusalem"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "掣签",
+                    "characters": [
+                      "掣",
+                      "签"
+                    ],
+                    "pinyin": "chè qiān",
+                    "engdef": "cast lots"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "却",
+                    "characters": [
+                      "却"
+                    ],
+                    "pinyin": "què",
+                    "engdef": "yet"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "对着",
+                    "characters": [
+                      "对",
+                      "着"
+                    ],
+                    "pinyin": "duì zhe",
+                    "engdef": "facing"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "站立",
+                    "characters": [
+                      "站",
+                      "立"
+                    ],
+                    "pinyin": "zhàn lì",
+                    "engdef": "stood"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "行动",
+                    "characters": [
+                      "行",
+                      "动"
+                    ],
+                    "pinyin": "xíng dòng",
+                    "engdef": "acted"
+                  },
+                  {
+                    "wordIndex": 24,
+                    "ChineseWord": "与",
+                    "characters": [
+                      "与"
+                    ],
+                    "pinyin": "yǔ",
+                    "engdef": "with"
+                  },
+                  {
+                    "wordIndex": 25,
+                    "ChineseWord": "仇敌",
+                    "characters": [
+                      "仇",
+                      "敌"
+                    ],
+                    "pinyin": "chóu dí",
+                    "engdef": "enemies"
+                  },
+                  {
+                    "wordIndex": 26,
+                    "ChineseWord": "无异",
+                    "characters": [
+                      "无",
+                      "异"
+                    ],
+                    "pinyin": "wú yì",
+                    "engdef": "no different"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 11,
+                "chineseVerse": "你兄弟遭难的日子、你不当在旁观看。犹大人丧败的日子、你不当因之喜乐。他们遭艰难的日子、你不当口出狂傲的话。",
+                "pinyin": "nǐ xiōng dì zāo nàn de rì zi nǐ bù dāng zài páng guān kàn yóu dà rén sàng bài de rì zi nǐ bù dāng yīn zhī xǐ lè tā men zāo jiān nán de rì zi nǐ bù dāng kǒu chū kuáng ào de huà",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "兄弟",
+                    "characters": [
+                      "兄",
+                      "弟"
+                    ],
+                    "pinyin": "xiōng dì",
+                    "engdef": "brother"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "遭难",
+                    "characters": [
+                      "遭",
+                      "难"
+                    ],
+                    "pinyin": "zāo nàn",
+                    "engdef": "suffer disaster"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "日子",
+                    "characters": [
+                      "日",
+                      "子"
+                    ],
+                    "pinyin": "rì zi",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "在旁",
+                    "characters": [
+                      "在",
+                      "旁"
+                    ],
+                    "pinyin": "zài páng",
+                    "engdef": "on the side"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "观看",
+                    "characters": [
+                      "观",
+                      "看"
+                    ],
+                    "pinyin": "guān kàn",
+                    "engdef": "watch"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "犹大人",
+                    "characters": [
+                      "犹",
+                      "大",
+                      "人"
+                    ],
+                    "pinyin": "yóu dà rén",
+                    "engdef": "people of Judah"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "丧败",
+                    "characters": [
+                      "丧",
+                      "败"
+                    ],
+                    "pinyin": "sàng bài",
+                    "engdef": "defeat"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "日子",
+                    "characters": [
+                      "日",
+                      "子"
+                    ],
+                    "pinyin": "rì zi",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "因之",
+                    "characters": [
+                      "因",
+                      "之"
+                    ],
+                    "pinyin": "yīn zhī",
+                    "engdef": "because of it"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "喜乐",
+                    "characters": [
+                      "喜",
+                      "乐"
+                    ],
+                    "pinyin": "xǐ lè",
+                    "engdef": "rejoice"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "they"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "遭",
+                    "characters": [
+                      "遭"
+                    ],
+                    "pinyin": "zāo",
+                    "engdef": "suffer"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "艰难",
+                    "characters": [
+                      "艰",
+                      "难"
+                    ],
+                    "pinyin": "jiān nán",
+                    "engdef": "hardship"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "日子",
+                    "characters": [
+                      "日",
+                      "子"
+                    ],
+                    "pinyin": "rì zi",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 24,
+                    "ChineseWord": "口出",
+                    "characters": [
+                      "口",
+                      "出"
+                    ],
+                    "pinyin": "kǒu chū",
+                    "engdef": "speak out"
+                  },
+                  {
+                    "wordIndex": 25,
+                    "ChineseWord": "狂傲",
+                    "characters": [
+                      "狂",
+                      "傲"
+                    ],
+                    "pinyin": "kuáng ào",
+                    "engdef": "arrogant"
+                  },
+                  {
+                    "wordIndex": 26,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 27,
+                    "ChineseWord": "话",
+                    "characters": [
+                      "话"
+                    ],
+                    "pinyin": "huà",
+                    "engdef": "words"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 12,
+                "chineseVerse": "我民遭祸的日子、你不当进他们的城门。他们遭祸的日子、你不当看着他们受苦、他们遭祸的日子、你不当伸手抢他们的财物。",
+                "pinyin": "wǒ mín zāo huò de rì zi nǐ bù dāng jìn tā men de chéng mén tā men zāo huò de rì zi nǐ bù dāng kàn zhe tā men shòu kǔ tā men zāo huò de rì zi nǐ bù dāng shēn shǒu qiǎng tā men de cái wù",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "我民",
+                    "characters": [
+                      "我",
+                      "民"
+                    ],
+                    "pinyin": "wǒ mín",
+                    "engdef": "my people"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "遭祸",
+                    "characters": [
+                      "遭",
+                      "祸"
+                    ],
+                    "pinyin": "zāo huò",
+                    "engdef": "suffer disaster"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "日子",
+                    "characters": [
+                      "日",
+                      "子"
+                    ],
+                    "pinyin": "rì zi",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "进",
+                    "characters": [
+                      "进"
+                    ],
+                    "pinyin": "jìn",
+                    "engdef": "enter"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "their"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "城门",
+                    "characters": [
+                      "城",
+                      "门"
+                    ],
+                    "pinyin": "chéng mén",
+                    "engdef": "city gate"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "they"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "遭祸",
+                    "characters": [
+                      "遭",
+                      "祸"
+                    ],
+                    "pinyin": "zāo huò",
+                    "engdef": "suffer disaster"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "日子",
+                    "characters": [
+                      "日",
+                      "子"
+                    ],
+                    "pinyin": "rì zi",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "看着",
+                    "characters": [
+                      "看",
+                      "着"
+                    ],
+                    "pinyin": "kàn zhe",
+                    "engdef": "watch"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "them"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "受苦",
+                    "characters": [
+                      "受",
+                      "苦"
+                    ],
+                    "pinyin": "shòu kǔ",
+                    "engdef": "suffer"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "they"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "遭祸",
+                    "characters": [
+                      "遭",
+                      "祸"
+                    ],
+                    "pinyin": "zāo huò",
+                    "engdef": "suffer disaster"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "日子",
+                    "characters": [
+                      "日",
+                      "子"
+                    ],
+                    "pinyin": "rì zi",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 24,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 25,
+                    "ChineseWord": "伸手",
+                    "characters": [
+                      "伸",
+                      "手"
+                    ],
+                    "pinyin": "shēn shǒu",
+                    "engdef": "stretch out hand"
+                  },
+                  {
+                    "wordIndex": 26,
+                    "ChineseWord": "抢",
+                    "characters": [
+                      "抢"
+                    ],
+                    "pinyin": "qiǎng",
+                    "engdef": "seize"
+                  },
+                  {
+                    "wordIndex": 27,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "their"
+                  },
+                  {
+                    "wordIndex": 28,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 29,
+                    "ChineseWord": "财物",
+                    "characters": [
+                      "财",
+                      "物"
+                    ],
+                    "pinyin": "cái wù",
+                    "engdef": "property"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 13,
+                "chineseVerse": "你不当站在岔道、除灭他们中逃亡的人。你不当将他们遭难日剩下的人交付仇敌。",
+                "pinyin": "nǐ bù dāng zhàn zài chà dào chú miè tā men zhōng táo wáng de rén nǐ bù dāng jiāng tā men zāo nàn rì shèng xià de rén jiāo fù chóu dí",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "站在",
+                    "characters": [
+                      "站",
+                      "在"
+                    ],
+                    "pinyin": "zhàn zài",
+                    "engdef": "stand at"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "岔道",
+                    "characters": [
+                      "岔",
+                      "道"
+                    ],
+                    "pinyin": "chà dào",
+                    "engdef": "crossroads"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "除灭",
+                    "characters": [
+                      "除",
+                      "灭"
+                    ],
+                    "pinyin": "chú miè",
+                    "engdef": "destroy"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "them"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "中",
+                    "characters": [
+                      "中"
+                    ],
+                    "pinyin": "zhōng",
+                    "engdef": "among"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "逃亡",
+                    "characters": [
+                      "逃",
+                      "亡"
+                    ],
+                    "pinyin": "táo wáng",
+                    "engdef": "flee"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "不当",
+                    "characters": [
+                      "不",
+                      "当"
+                    ],
+                    "pinyin": "bù dāng",
+                    "engdef": "should not"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "将",
+                    "characters": [
+                      "将"
+                    ],
+                    "pinyin": "jiāng",
+                    "engdef": "take"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "them"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "遭难",
+                    "characters": [
+                      "遭",
+                      "难"
+                    ],
+                    "pinyin": "zāo nàn",
+                    "engdef": "suffer disaster"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "日",
+                    "characters": [
+                      "日"
+                    ],
+                    "pinyin": "rì",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "剩下",
+                    "characters": [
+                      "剩",
+                      "下"
+                    ],
+                    "pinyin": "shèng xià",
+                    "engdef": "remaining"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "交付",
+                    "characters": [
+                      "交",
+                      "付"
+                    ],
+                    "pinyin": "jiāo fù",
+                    "engdef": "deliver"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "仇敌",
+                    "characters": [
+                      "仇",
+                      "敌"
+                    ],
+                    "pinyin": "chóu dí",
+                    "engdef": "enemy"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 14,
+                "chineseVerse": "主惩罚一切异邦人的日子快到、你如何行、人也必向你如何行、你的报应必临到你头上。",
+                "pinyin": "zhǔ chéng fá yī qiè yì bāng rén de rì zi kuài dào nǐ rú hé xíng rén yě bì xiàng nǐ rú hé xíng nǐ de bào yìng bì lín dào nǐ tóu shàng",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "惩罚",
+                    "characters": [
+                      "惩",
+                      "罚"
+                    ],
+                    "pinyin": "chéng fá",
+                    "engdef": "punish"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "一切",
+                    "characters": [
+                      "一",
+                      "切"
+                    ],
+                    "pinyin": "yī qiè",
+                    "engdef": "all"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "异邦人",
+                    "characters": [
+                      "异",
+                      "邦",
+                      "人"
+                    ],
+                    "pinyin": "yì bāng rén",
+                    "engdef": "foreigners"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "日子",
+                    "characters": [
+                      "日",
+                      "子"
+                    ],
+                    "pinyin": "rì zi",
+                    "engdef": "day"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "快到",
+                    "characters": [
+                      "快",
+                      "到"
+                    ],
+                    "pinyin": "kuài dào",
+                    "engdef": "is near"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "如何",
+                    "characters": [
+                      "如",
+                      "何"
+                    ],
+                    "pinyin": "rú hé",
+                    "engdef": "how"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "行",
+                    "characters": [
+                      "行"
+                    ],
+                    "pinyin": "xíng",
+                    "engdef": "act"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "也",
+                    "characters": [
+                      "也"
+                    ],
+                    "pinyin": "yě",
+                    "engdef": "also"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "向",
+                    "characters": [
+                      "向"
+                    ],
+                    "pinyin": "xiàng",
+                    "engdef": "toward"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "如何",
+                    "characters": [
+                      "如",
+                      "何"
+                    ],
+                    "pinyin": "rú hé",
+                    "engdef": "how"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "行",
+                    "characters": [
+                      "行"
+                    ],
+                    "pinyin": "xíng",
+                    "engdef": "act"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "报应",
+                    "characters": [
+                      "报",
+                      "应"
+                    ],
+                    "pinyin": "bào yìng",
+                    "engdef": "retribution"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "临到",
+                    "characters": [
+                      "临",
+                      "到"
+                    ],
+                    "pinyin": "lín dào",
+                    "engdef": "come upon"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "你",
+                    "characters": [
+                      "你"
+                    ],
+                    "pinyin": "nǐ",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "头上",
+                    "characters": [
+                      "头",
+                      "上"
+                    ],
+                    "pinyin": "tóu shàng",
+                    "engdef": "on the head"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 15,
+                "chineseVerse": "你们犹大人、在我圣山饮了苦杯、列邦人也必要这样常饮苦杯、他们必吸饮净尽、归于无有、如本来无有。",
+                "pinyin": "nǐ men yóu dà rén zài wǒ shèng shān yǐn le kǔ bēi liè bāng rén yě bì yào zhè yàng cháng yǐn kǔ bēi tā men bì xī yǐn jìng jìn guī yú wú yǒu rú běn lái wú yǒu",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "你们",
+                    "characters": [
+                      "你",
+                      "们"
+                    ],
+                    "pinyin": "nǐ men",
+                    "engdef": "you"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "犹大人",
+                    "characters": [
+                      "犹",
+                      "大",
+                      "人"
+                    ],
+                    "pinyin": "yóu dà rén",
+                    "engdef": "people of Judah"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "在",
+                    "characters": [
+                      "在"
+                    ],
+                    "pinyin": "zài",
+                    "engdef": "at"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "我",
+                    "characters": [
+                      "我"
+                    ],
+                    "pinyin": "wǒ",
+                    "engdef": "my"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "圣山",
+                    "characters": [
+                      "圣",
+                      "山"
+                    ],
+                    "pinyin": "shèng shān",
+                    "engdef": "holy mountain"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "饮了",
+                    "characters": [
+                      "饮",
+                      "了"
+                    ],
+                    "pinyin": "yǐn le",
+                    "engdef": "drank"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "苦杯",
+                    "characters": [
+                      "苦",
+                      "杯"
+                    ],
+                    "pinyin": "kǔ bēi",
+                    "engdef": "bitter cup"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "列邦人",
+                    "characters": [
+                      "列",
+                      "邦",
+                      "人"
+                    ],
+                    "pinyin": "liè bāng rén",
+                    "engdef": "people of the nations"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "也",
+                    "characters": [
+                      "也"
+                    ],
+                    "pinyin": "yě",
+                    "engdef": "also"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "必要",
+                    "characters": [
+                      "必",
+                      "要"
+                    ],
+                    "pinyin": "bì yào",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "这样",
+                    "characters": [
+                      "这",
+                      "样"
+                    ],
+                    "pinyin": "zhè yàng",
+                    "engdef": "like this"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "常饮",
+                    "characters": [
+                      "常",
+                      "饮"
+                    ],
+                    "pinyin": "cháng yǐn",
+                    "engdef": "often drink"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "苦杯",
+                    "characters": [
+                      "苦",
+                      "杯"
+                    ],
+                    "pinyin": "kǔ bēi",
+                    "engdef": "bitter cup"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "他们",
+                    "characters": [
+                      "他",
+                      "们"
+                    ],
+                    "pinyin": "tā men",
+                    "engdef": "they"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "吸饮",
+                    "characters": [
+                      "吸",
+                      "饮"
+                    ],
+                    "pinyin": "xī yǐn",
+                    "engdef": "suck and drink"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "净尽",
+                    "characters": [
+                      "净",
+                      "尽"
+                    ],
+                    "pinyin": "jìng jìn",
+                    "engdef": "completely"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "归于",
+                    "characters": [
+                      "归",
+                      "于"
+                    ],
+                    "pinyin": "guī yú",
+                    "engdef": "return to"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "无有",
+                    "characters": [
+                      "无",
+                      "有"
+                    ],
+                    "pinyin": "wú yǒu",
+                    "engdef": "nothingness"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "如",
+                    "characters": [
+                      "如"
+                    ],
+                    "pinyin": "rú",
+                    "engdef": "as"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "本来",
+                    "characters": [
+                      "本",
+                      "来"
+                    ],
+                    "pinyin": "běn lái",
+                    "engdef": "originally"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "无有",
+                    "characters": [
+                      "无",
+                      "有"
+                    ],
+                    "pinyin": "wú yǒu",
+                    "engdef": "nothingness"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 16,
+                "chineseVerse": "在郇山必有人脱逃、那山也必为圣、雅各家必得仍享本业。",
+                "pinyin": "zài xún shān bì yǒu rén tuō táo nà shān yě bì wéi shèng yǎ gè jiā bì dé réng xiǎng běn yè",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "在",
+                    "characters": [
+                      "在"
+                    ],
+                    "pinyin": "zài",
+                    "engdef": "in"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "郇山",
+                    "characters": [
+                      "郇",
+                      "山"
+                    ],
+                    "pinyin": "xún shān",
+                    "engdef": "Mount Zion"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "有",
+                    "characters": [
+                      "有"
+                    ],
+                    "pinyin": "yǒu",
+                    "engdef": "there will be"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "脱逃",
+                    "characters": [
+                      "脱",
+                      "逃"
+                    ],
+                    "pinyin": "tuō táo",
+                    "engdef": "escape"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "那",
+                    "characters": [
+                      "那"
+                    ],
+                    "pinyin": "nà",
+                    "engdef": "that"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "山",
+                    "characters": [
+                      "山"
+                    ],
+                    "pinyin": "shān",
+                    "engdef": "mountain"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "也",
+                    "characters": [
+                      "也"
+                    ],
+                    "pinyin": "yě",
+                    "engdef": "also"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "为",
+                    "characters": [
+                      "为"
+                    ],
+                    "pinyin": "wéi",
+                    "engdef": "be"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "圣",
+                    "characters": [
+                      "圣"
+                    ],
+                    "pinyin": "shèng",
+                    "engdef": "holy"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "雅各家",
+                    "characters": [
+                      "雅",
+                      "各",
+                      "家"
+                    ],
+                    "pinyin": "yǎ gè jiā",
+                    "engdef": "house of Jacob"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "obtain"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "仍",
+                    "characters": [
+                      "仍"
+                    ],
+                    "pinyin": "réng",
+                    "engdef": "still"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "享",
+                    "characters": [
+                      "享"
+                    ],
+                    "pinyin": "xiǎng",
+                    "engdef": "enjoy"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "本业",
+                    "characters": [
+                      "本",
+                      "业"
+                    ],
+                    "pinyin": "běn yè",
+                    "engdef": "inheritance"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 17,
+                "chineseVerse": "雅各家必如烈火、约瑟家必如火焰、以扫家必如干草、必将烧毁净尽、以扫家必毫无遗留。这是主说的。",
+                "pinyin": "yǎ gè jiā bì rú liè huǒ yuē sè jiā bì rú huǒ yàn yǐ sǎo jiā bì rú gān cǎo bì jiāng shāo huǐ jìng jìn yǐ sǎo jiā bì háo wú yí liú zhè shì zhǔ shuō",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "雅各家",
+                    "characters": [
+                      "雅",
+                      "各",
+                      "家"
+                    ],
+                    "pinyin": "yǎ gè jiā",
+                    "engdef": "house of Jacob"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "will"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "如",
+                    "characters": [
+                      "如"
+                    ],
+                    "pinyin": "rú",
+                    "engdef": "like"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "烈火",
+                    "characters": [
+                      "烈",
+                      "火"
+                    ],
+                    "pinyin": "liè huǒ",
+                    "engdef": "blazing fire"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "约瑟家",
+                    "characters": [
+                      "约",
+                      "瑟",
+                      "家"
+                    ],
+                    "pinyin": "yuē sè jiā",
+                    "engdef": "house of Joseph"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "will"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "如",
+                    "characters": [
+                      "如"
+                    ],
+                    "pinyin": "rú",
+                    "engdef": "like"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "火焰",
+                    "characters": [
+                      "火",
+                      "焰"
+                    ],
+                    "pinyin": "huǒ yàn",
+                    "engdef": "flame"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "以扫家",
+                    "characters": [
+                      "以",
+                      "扫",
+                      "家"
+                    ],
+                    "pinyin": "yǐ sǎo jiā",
+                    "engdef": "house of Esau"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "will"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "如",
+                    "characters": [
+                      "如"
+                    ],
+                    "pinyin": "rú",
+                    "engdef": "like"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "干草",
+                    "characters": [
+                      "干",
+                      "草"
+                    ],
+                    "pinyin": "gān cǎo",
+                    "engdef": "dry grass"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "必将",
+                    "characters": [
+                      "必",
+                      "将"
+                    ],
+                    "pinyin": "bì jiāng",
+                    "engdef": "will surely"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "烧毁",
+                    "characters": [
+                      "烧",
+                      "毁"
+                    ],
+                    "pinyin": "shāo huǐ",
+                    "engdef": "burn down"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "净尽",
+                    "characters": [
+                      "净",
+                      "尽"
+                    ],
+                    "pinyin": "jìng jìn",
+                    "engdef": "completely"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "以扫家",
+                    "characters": [
+                      "以",
+                      "扫",
+                      "家"
+                    ],
+                    "pinyin": "yǐ sǎo jiā",
+                    "engdef": "house of Esau"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "will"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "毫无",
+                    "characters": [
+                      "毫",
+                      "无"
+                    ],
+                    "pinyin": "háo wú",
+                    "engdef": "not at all"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "遗留",
+                    "characters": [
+                      "遗",
+                      "留"
+                    ],
+                    "pinyin": "yí liú",
+                    "engdef": "remain"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "这是",
+                    "characters": [
+                      "这",
+                      "是"
+                    ],
+                    "pinyin": "zhè shì",
+                    "engdef": "this is"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "说",
+                    "characters": [
+                      "说"
+                    ],
+                    "pinyin": "shuō",
+                    "engdef": "said"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 18,
+                "chineseVerse": "住南方的人必得以扫山、住洼地的人必得非利士地、也得以法莲地和撒玛利亚地、便雅悯人必得基列。",
+                "pinyin": "zhù nán fāng de rén bì dé yǐ sǎo shān zhù wā dì de rén bì dé fēi lì shì dì yě dé yǐ fǎ lián dì hé sǎ mǎ lì yà dì biàn yǎ mǐn rén bì dé jī liè",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "住",
+                    "characters": [
+                      "住"
+                    ],
+                    "pinyin": "zhù",
+                    "engdef": "dwell"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "南方",
+                    "characters": [
+                      "南",
+                      "方"
+                    ],
+                    "pinyin": "nán fāng",
+                    "engdef": "south"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "shall"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "obtain"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "以扫山",
+                    "characters": [
+                      "以",
+                      "扫",
+                      "山"
+                    ],
+                    "pinyin": "yǐ sǎo shān",
+                    "engdef": "Mount Esau"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "住",
+                    "characters": [
+                      "住"
+                    ],
+                    "pinyin": "zhù",
+                    "engdef": "dwell"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "洼地",
+                    "characters": [
+                      "洼",
+                      "地"
+                    ],
+                    "pinyin": "wā dì",
+                    "engdef": "lowland"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "shall"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "obtain"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "非利士地",
+                    "characters": [
+                      "非",
+                      "利",
+                      "士",
+                      "地"
+                    ],
+                    "pinyin": "fēi lì shì dì",
+                    "engdef": "land of the Philistines"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "也",
+                    "characters": [
+                      "也"
+                    ],
+                    "pinyin": "yě",
+                    "engdef": "also"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "obtain"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "以法莲地",
+                    "characters": [
+                      "以",
+                      "法",
+                      "莲",
+                      "地"
+                    ],
+                    "pinyin": "yǐ fǎ lián dì",
+                    "engdef": "land of Ephraim"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "和",
+                    "characters": [
+                      "和"
+                    ],
+                    "pinyin": "hé",
+                    "engdef": "and"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "撒玛利亚地",
+                    "characters": [
+                      "撒",
+                      "玛",
+                      "利",
+                      "亚",
+                      "地"
+                    ],
+                    "pinyin": "sǎ mǎ lì yà dì",
+                    "engdef": "land of Samaria"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "便雅悯人",
+                    "characters": [
+                      "便",
+                      "雅",
+                      "悯",
+                      "人"
+                    ],
+                    "pinyin": "biàn yǎ mǐn rén",
+                    "engdef": "people of Benjamin"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "shall"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "obtain"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "基列",
+                    "characters": [
+                      "基",
+                      "列"
+                    ],
+                    "pinyin": "jī liè",
+                    "engdef": "Gilead"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 19,
+                "chineseVerse": "这被掳的以色列民众必要得属迦南人的地、直到撒勒法、住在西法拉的被掳的耶路撒冷民必要得南方的城邑。",
+                "pinyin": "zhè bèi lǔ de yǐ sè liè mín zhòng bì yào dé shǔ jiā nán rén de dì zhí dào sā lè fǎ zhù zài xī fǎ lā de bèi lǔ de yē lù sā lěng mín bì yào dé nán fāng de chéng yì",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "这",
+                    "characters": [
+                      "这"
+                    ],
+                    "pinyin": "zhè",
+                    "engdef": "this"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "被掳",
+                    "characters": [
+                      "被",
+                      "掳"
+                    ],
+                    "pinyin": "bèi lǔ",
+                    "engdef": "captured"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "以色列",
+                    "characters": [
+                      "以",
+                      "色",
+                      "列"
+                    ],
+                    "pinyin": "yǐ sè liè",
+                    "engdef": "Israel"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "民众",
+                    "characters": [
+                      "民",
+                      "众"
+                    ],
+                    "pinyin": "mín zhòng",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "必要",
+                    "characters": [
+                      "必",
+                      "要"
+                    ],
+                    "pinyin": "bì yào",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "obtain"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "属",
+                    "characters": [
+                      "属"
+                    ],
+                    "pinyin": "shǔ",
+                    "engdef": "belong to"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "迦南人",
+                    "characters": [
+                      "迦",
+                      "南",
+                      "人"
+                    ],
+                    "pinyin": "jiā nán rén",
+                    "engdef": "Canaanites"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "地",
+                    "characters": [
+                      "地"
+                    ],
+                    "pinyin": "dì",
+                    "engdef": "land"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "直到",
+                    "characters": [
+                      "直",
+                      "到"
+                    ],
+                    "pinyin": "zhí dào",
+                    "engdef": "until"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "撒勒法",
+                    "characters": [
+                      "撒",
+                      "勒",
+                      "法"
+                    ],
+                    "pinyin": "sā lè fǎ",
+                    "engdef": "Zarephath"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "住在",
+                    "characters": [
+                      "住",
+                      "在"
+                    ],
+                    "pinyin": "zhù zài",
+                    "engdef": "live in"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "西法拉",
+                    "characters": [
+                      "西",
+                      "法",
+                      "拉"
+                    ],
+                    "pinyin": "xī fǎ lā",
+                    "engdef": "Sepharad"
+                  },
+                  {
+                    "wordIndex": 15,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 16,
+                    "ChineseWord": "被掳",
+                    "characters": [
+                      "被",
+                      "掳"
+                    ],
+                    "pinyin": "bèi lǔ",
+                    "engdef": "captured"
+                  },
+                  {
+                    "wordIndex": 17,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 18,
+                    "ChineseWord": "耶路撒冷",
+                    "characters": [
+                      "耶",
+                      "路",
+                      "撒",
+                      "冷"
+                    ],
+                    "pinyin": "yē lù sā lěng",
+                    "engdef": "Jerusalem"
+                  },
+                  {
+                    "wordIndex": 19,
+                    "ChineseWord": "民",
+                    "characters": [
+                      "民"
+                    ],
+                    "pinyin": "mín",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 20,
+                    "ChineseWord": "必要",
+                    "characters": [
+                      "必",
+                      "要"
+                    ],
+                    "pinyin": "bì yào",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 21,
+                    "ChineseWord": "得",
+                    "characters": [
+                      "得"
+                    ],
+                    "pinyin": "dé",
+                    "engdef": "obtain"
+                  },
+                  {
+                    "wordIndex": 22,
+                    "ChineseWord": "南方",
+                    "characters": [
+                      "南",
+                      "方"
+                    ],
+                    "pinyin": "nán fāng",
+                    "engdef": "south"
+                  },
+                  {
+                    "wordIndex": 23,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 24,
+                    "ChineseWord": "城邑",
+                    "characters": [
+                      "城",
+                      "邑"
+                    ],
+                    "pinyin": "chéng yì",
+                    "engdef": "cities"
+                  }
+                ]
+              },
+              {
+                "verseIndex": 20,
+                "chineseVerse": "必有施救的人上到郇山审判以扫山、那时国权必归与主。约拿书：目录",
+                "pinyin": "bì yǒu shī jiù de rén shàng dào xún shān shěn pàn yǐ sǎo shān nà shí guó quán bì guī yǔ zhǔ yuē ná shū mù lù",
+                "words": [
+                  {
+                    "wordIndex": 0,
+                    "ChineseWord": "必有",
+                    "characters": [
+                      "必",
+                      "有"
+                    ],
+                    "pinyin": "bì yǒu",
+                    "engdef": "there must be"
+                  },
+                  {
+                    "wordIndex": 1,
+                    "ChineseWord": "施救",
+                    "characters": [
+                      "施",
+                      "救"
+                    ],
+                    "pinyin": "shī jiù",
+                    "engdef": "deliverance"
+                  },
+                  {
+                    "wordIndex": 2,
+                    "ChineseWord": "的",
+                    "characters": [
+                      "的"
+                    ],
+                    "pinyin": "de",
+                    "engdef": "possessive particle"
+                  },
+                  {
+                    "wordIndex": 3,
+                    "ChineseWord": "人",
+                    "characters": [
+                      "人"
+                    ],
+                    "pinyin": "rén",
+                    "engdef": "people"
+                  },
+                  {
+                    "wordIndex": 4,
+                    "ChineseWord": "上到",
+                    "characters": [
+                      "上",
+                      "到"
+                    ],
+                    "pinyin": "shàng dào",
+                    "engdef": "ascend to"
+                  },
+                  {
+                    "wordIndex": 5,
+                    "ChineseWord": "郇山",
+                    "characters": [
+                      "郇",
+                      "山"
+                    ],
+                    "pinyin": "xún shān",
+                    "engdef": "Mount Zion"
+                  },
+                  {
+                    "wordIndex": 6,
+                    "ChineseWord": "审判",
+                    "characters": [
+                      "审",
+                      "判"
+                    ],
+                    "pinyin": "shěn pàn",
+                    "engdef": "judge"
+                  },
+                  {
+                    "wordIndex": 7,
+                    "ChineseWord": "以扫山",
+                    "characters": [
+                      "以",
+                      "扫",
+                      "山"
+                    ],
+                    "pinyin": "yǐ sǎo shān",
+                    "engdef": "Mount Esau"
+                  },
+                  {
+                    "wordIndex": 8,
+                    "ChineseWord": "那时",
+                    "characters": [
+                      "那",
+                      "时"
+                    ],
+                    "pinyin": "nà shí",
+                    "engdef": "at that time"
+                  },
+                  {
+                    "wordIndex": 9,
+                    "ChineseWord": "国权",
+                    "characters": [
+                      "国",
+                      "权"
+                    ],
+                    "pinyin": "guó quán",
+                    "engdef": "kingdom authority"
+                  },
+                  {
+                    "wordIndex": 10,
+                    "ChineseWord": "必",
+                    "characters": [
+                      "必"
+                    ],
+                    "pinyin": "bì",
+                    "engdef": "must"
+                  },
+                  {
+                    "wordIndex": 11,
+                    "ChineseWord": "归与",
+                    "characters": [
+                      "归",
+                      "与"
+                    ],
+                    "pinyin": "guī yǔ",
+                    "engdef": "return to"
+                  },
+                  {
+                    "wordIndex": 12,
+                    "ChineseWord": "主",
+                    "characters": [
+                      "主"
+                    ],
+                    "pinyin": "zhǔ",
+                    "engdef": "Lord"
+                  },
+                  {
+                    "wordIndex": 13,
+                    "ChineseWord": "约拿书",
+                    "characters": [
+                      "约",
+                      "拿",
+                      "书"
+                    ],
+                    "pinyin": "yuē ná shū",
+                    "engdef": "Book of Jonah"
+                  },
+                  {
+                    "wordIndex": 14,
+                    "ChineseWord": "目录",
+                    "characters": [
+                      "目",
+                      "录"
+                    ],
+                    "pinyin": "mù lù",
+                    "engdef": "table of contents"
+                  }
+                ]
+              }
+            ],
+            "costUSD": 0.04265523999999999
+          }
+        ]
+      }
+    ]
+  }
+}
